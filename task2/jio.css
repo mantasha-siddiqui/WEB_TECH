@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(48, 6, 6);
+    overflow-x: hidden;
+}
+
+.header-container {
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(65, 2, 2);
+    color: #fff;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 135px;
+    height: 76px;
+    position: relative;
+    top: 3px;
+}
+.logo span{
+    position: relative;
+    bottom: 26px;
+    right: 33px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    right: 113px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffffb3;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(226, 5, 79);
+    text-decoration-thickness: 5px;
+
+}
+
+
+
+.search-dropdown {
+    width: 83px;
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 5px 0 0 5px;
+   
+}
+
+.search-dropdown:hover{
+    border: 1px solid;
+    color: brown;
+}
+
+
+.search i{
+    height: 10px;
+    width: 10px;
+    font-size: large;
+    position: relative;
+    left: -83px;
+    top: 1px;
+    
+}
+
+.mic i{
+    font-size: large;
+    position: relative;
+    left: 183px;
+    bottom: 24px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 32px;
+    position: relative;
+    bottom: 17px;
+    right: 106px;
+}
+
+
+.search-icon i {
+    height: 100%;
+    background-color: brown;
+    padding: 8px 18px;
+
+    
+}
+
+.search-icon i:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+
+ .search-box input[type="text"]{
+    height: 20px;
+    width: 305px;
+    padding: 17px;
+    margin: 30px;
+    border: none;
+    font-size: 14px;
+    border-radius: 19px;
+    position: relative;
+    left: -124px;
+    bottom: -60px;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+::-webkit-input-placeholder{
+    color: black;
+    position: relative;
+    left: 20px;
+}
+ 
+
+.user{
+    height: 67px;
+    width: 78px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    right: -274px;
+    bottom: 71px;
+    background: url(./avatar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.nav-options{
+    height: 76px;
+    background-color: rgb(48, 6, 6);
+}
+
+
+.nav-options .options {
+    display: flex;
+}
+
+
+.nav-options .options p {
+    color: white;
+    padding: 10px;
+}
+.nav-options .options p:hover{
+    border: 1px solid;
+    color: white;
+}
+
+.scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll img{
+    padding: 20px;
+    position: relative;
+    width: 564px;
+    height: 432px;
+    margin-left: -36px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box1{
+    border-radius: 10px;
+}
+
+
+.color{
+    display: flex;
+    justify-content: space-around;
+
+}
+.color img{
+    margin: 10px;
+}
+
+.scroll1{
+   display: flex;
+    overflow-x: scroll;
+}
+.scroll1::-webkit-scrollbar{
+    display: none;
+}
+.scroll1 img{
+    padding: 20px;
+    position: relative;
+    width: 564px;
+    height: 432px;
+    margin-left: -36px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.box1{
+    border-radius: 10px;
+}
+.color div img:hover{
+     transform: scale(1.1);
+}
+
+.nav-options .options p{
+    background-color: gray; 
+    color: #ffffff;
+    border: none;
+    margin: 15px;
+    height: 30px;
+    padding: 8px;
+    font-size:12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+
+
+}
+.nav-options .options p:hover{
+    background-color: rgb(132, 130, 126)
+}

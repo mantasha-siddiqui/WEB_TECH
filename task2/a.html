@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Container Layout</title>
+    <style>
+        .outer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height to center the inner container */
+            background-color: #f0f0f0; /* Light grey background for the outer container */
+        }
+        .inner-container {
+            width: 300px; /* Fixed width for the inner container */
+            background-color: #ffffff; /* White background for the inner container */
+            border: 1px solid #ccc; /* Light grey border */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the inner container */
+        }
+        .top-container {
+            width: 100%;
+            background-color: lightblue;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .bottom-containers {
+            display: flex;
+            justify-content: space-between;
+        }
+        .bottom-container {
+            width: 48%;
+            background-color: lightgreen;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="top-container">Top Container</div>
+            <div class="bottom-containers">
+                <div class="bottom-container">Bottom Container 1</div>
+                <div class="bottom-container">Bottom Container 2</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

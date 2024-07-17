@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+}
+
+
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+
+.nav-logo img {
+    width: 100px;
+    padding: 3px;
+}
+
+.nav-logo:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+.location {
+    height: 100%;
+    font-size: 11px;
+    padding: 12px 14px;
+}
+
+.location:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.nav2 {
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+ 
+
+
+.search-dropdown {
+    width: 83px;
+    font-size: 20px;
+    background-color: rgb(210, 208, 208);
+    padding: 9px;
+    border-radius: 5px 0 0 5px;
+   
+}
+
+.search-dropdown:hover{
+    border: 1px solid;
+    color: whitesmoke;
+}
+
+
+.search-box {
+    width: 866px;
+    font-size: 1rem;
+    padding: 1px;
+}
+
+
+
+
+.search-icon i {
+    height: 100%;
+    background-color: rgba(255, 203, 105, 0.849);
+    border-radius: 0 5px 5px 0;
+    padding: 11px 18px;
+    
+}
+.search-icon:hover{
+    border: 1px solid;
+    color: white;
+}
+
+.nav3 {
+    display: flex;
+    align-items: center;
+    margin: 0 6px;
+}
+
+
+.language-option {
+    display: flex;
+    padding: 11px 9px;
+}
+
+
+.select-language {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: none;
+}
+.language-option:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+.select-language option {
+    color: black;
+}
+
+.account-option {
+    padding: 12px 7px;
+}
+
+
+
+
+.account-option .top-text {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.select-account {
+    font-size: 10px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: none;
+}
+.account-option:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+
+.order-option {
+    padding: 14px 17px;
+}
+
+
+
+.order-option .top-text {
+    font-size: 12px;
+}
+
+
+
+.order-option .bottom-text {
+    font-size: 10px;
+    font-weight: bold;
+}
+.order-option:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+
+.cart-option {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 10px;
+}
+
+.cart-option:hover{
+   border: 1px solid;
+   color: white;
+}
+
+
+
+
+.cart-logo i {
+    width: 20px;
+}
+
+.nav-options {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    justify-content: start;
+
+}
+
+
+
+.all-logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 14px;
+    margin-left: 23px;
+}
+
+.all-logo:hover{
+    border: 1px solid;
+    color: white;
+}
+
+
+
+
+.nav-options .options {
+    display: flex;
+}
+
+.nav-options .options p {
+    padding: 11px;
+}
+.nav-options .options p:hover{
+    border: 1px solid;
+    color: white;
+}
+
+

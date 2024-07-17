@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 500px;
+    height: 450px;
+    border: 1px solid;
+    margin: 70px auto;
+    background-color: #9B59B6;
+    
+    
+}
+.box2{
+    width: 500px;
+    height: 150px;
+    border: 1px solid;
+    margin: -220px auto;
+    background-color: #49627C;
+}
+
+.ball{
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    margin-left: 448px;
+    animation-name: moon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    
+    
+}
+
+@keyframes moon{
+    0%{
+        transform: translate(0px);
+    }
+    16.16%{
+        transform: translate(-100px,250PX);
+        transition: all 2s 0s ease-in;
+        box-shadow: -5px -5px 5px white;
+    }
+    32.32%{
+        transform: translate(-150px,50PX);
+        transition: all 2s 0s ease-in;
+        box-shadow: -5px -5px 5px white;
+    }
+    48.48%{
+        transform: translate(-300px,245PX);
+        transition: all 2s 0s ease-in;
+        box-shadow: -5px -5px 5px white;
+    }
+    100%{
+        transform: translate(-500px,100px);
+    }
+    
+    
+     
+}

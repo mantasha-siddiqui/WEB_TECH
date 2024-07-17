@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 199px;
+    width: 171px;
+    border: 10px solid;
+    margin: 97px auto;
+    border-radius: 97px 102px 0px 0px;
+}
+
+.container{
+    height: 282px;
+    width: 279px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    right: 61px;
+    top: 150px;
+    background-color: white;
+    background: url(./lock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    animation-name: lock;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes lock{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+

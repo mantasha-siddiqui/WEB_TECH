@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 256px;
+    height: 558px;
+    border: 1px solid;
+    background-color: black;
+    position: relative;
+    left: 471px;
+    top: 27px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.container2{
+    width: 62px;
+    height: 555px;
+    border: 1px solid;
+    background-color: black;
+    position: relative;
+    left: 751px;
+    bottom: 530px;
+}
+
+.box1{
+    height: 50px;
+    width: 37px;
+    background: url(./cl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 20px;
+    top: 16px;
+   
+    
+}
+
+
+
+
+.box1 i{
+    position: relative;
+    left: 236px;
+    top: 14px;  
+    
+
+
+}
+
+
+.h1{
+    position: relative;
+    left: 55px;
+    top: -8px;
+    color: white;
+
+}
+
+.box2{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 35px;
+}
+
+.box2:hover{
+    background-color: lightgray;
+
+}
+
+.box2 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 22px;
+    top: 6px;
+}
+
+
+
+.h2{
+    position: relative;
+    left: 84px;
+    top: -65px;
+    color: white;
+
+    
+}
+
+.box3{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 33px;
+}
+
+.box3:hover{
+    background-color: lightgray;
+}
+.box3 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 22px;
+    top: 8px;
+}
+.h3{
+    position: relative;
+    left: 77px;
+    top: -64px;
+    color: white;
+    
+}
+.box4{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 30px;
+}
+
+.box4:hover{
+    background-color: lightgray;
+}
+
+.box4 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 21px;
+    top: 9px;
+}
+
+.h4{
+    position: relative;
+    left: 79px;
+    top: -62px;
+    color: white;
+    
+}
+
+.box5{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 25px;
+}
+
+.box5:hover{
+    background-color: lightgray;
+}
+.box5 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 19px;
+    top: 8px;
+}
+
+.h5{
+    position: relative;
+    left: 73px;
+    top: -64px;
+    color: white;
+}
+
+.box6{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 23px;
+}
+
+.box6:hover{
+    background-color: lightgray;
+}
+.box6 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 14px;
+    top: 7px;
+}
+
+.h6{
+    position: relative;
+    left: 72px;
+    top: -65px;
+    color: white;
+}
+.box7{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 21px;
+}
+.box:hover{
+    background-color: lightgray;
+}
+.box7 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 16px;
+    top: 8px;
+}
+
+.h7{
+    position: relative;
+    left: 78px;
+    top: -64px;
+    color: white;
+    
+}
+.box8{
+    width: 556px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 19px;
+}
+.box8:hover{
+    background-color: lightgray;
+}
+.box8 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 19px;
+    top: 6px;
+}
+
+.h8{
+    position: relative;
+    left: 72px;
+    top: -62px;
+    color: white;
+    
+}
+
+
+.box9{
+    height: 33px;
+    width: 68px;
+    background: url(./cl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: -7px;
+    top: 16px;
+
+}
+.box9 i{
+        position: relative;
+        left: 67px;
+        top: 14px;
+
+}
+
+.box10{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 73px;
+}
+
+.box10:hover{
+    background-color: lightgray;
+}
+
+
+
+
+.box10 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 8px;
+    
+
+}
+
+.box11{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 89px;
+}
+.box11:hover{
+    background-color: lightgray;
+}
+
+
+
+.box11 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top:  10px;
+}
+
+.box12{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 107px;
+}
+
+.box12:hover{
+    background-color: lightgray;
+}
+.box12 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 6px;
+}
+
+.box13{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 123px;
+}
+.box13:hover{
+    background-color: lightgray;
+}
+.box13 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 10px;
+}
+.box14{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 143px;
+}
+.box14:hover{
+    background-color: lightgray;
+}
+.box14 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 9px;
+}
+.box15{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 160px;
+}
+.box15:hover{
+    background-color: lightgray;
+}
+.box15 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 9px;
+}
+.box16{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 177px;
+}
+.box16:hover{
+    background-color: lightgray;
+}
+.box16 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 9px;
+}
+.container3{
+    width: 256px;
+    height: 204px;
+    border: 1px solid rgb(102, 102, 102);
+    background-color: black;
+    position: relative;
+    left: 471px;
+    top: -529px;
+    
+}
+.box50{
+    width: 255px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 34px;
+}
+.box50:hover{
+    background-color: lightgray;
+}
+.box50 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 19px;
+    top: 11px;
+}
+
+.h20{
+    position: relative;
+    left: 76px;
+    top: -63px;
+    color: white;
+    
+}
+.box60{
+    width: 255px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 46px;
+}
+.box60:hover{
+    background-color: lightgray;
+}
+.box60 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 18px;
+    top: 7px;
+}
+
+.h30{
+    position: relative;
+    left: 75px;
+    top: -63px;
+    color: white;
+    
+}
+
+
+
+
+.container4{
+    width: 62px;
+    height: 205px;
+    border: 1px solid rgb(102, 102, 102);
+    background-color: black;
+    position: relative;
+    left: 751px;
+    top: -735px;
+}
+.box70{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 37px;
+}
+.box70:hover{
+    background-color: lightgray;
+}
+
+.box70 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 9px;
+}
+.box80{
+    width: 61px;
+    height: 49px;
+    border: 1px solid;
+    background-color:black;
+    position: relative;
+    top: 49px;
+}
+.box80:hover{
+    background-color: lightgray;
+}
+.box80 i{
+    width: 70px;
+    height: 74px;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 13px;
+    top: 10px;
+}

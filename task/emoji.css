@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+section{
+    height: 620px;
+    width: 852px;
+    border: 1px solid black;
+    position: relative;
+    right: 313px;
+    top: 83px;
+    background-color: wheat;
+}
+
+
+
+.circle{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    left: 399px;
+    top: 200px;
+    background-color: rgb(240, 104, 127);
+    z-index: 80;
+    
+
+}
+
+.circle1{
+    height: 55px;
+    width: 60px;
+    border: 0px solid;
+    border-radius: 50%;
+    position: absolute;
+    
+    left: 465px;
+    top: 298px;
+    background-color: white;
+    z-index: 80;
+   
+
+
+
+}
+
+.circle2{
+    height: 55px;
+    width: 60px;
+    border: 0px solid;
+    border-radius: 50%;
+    position: absolute;
+    
+    left: 571px;
+    top: 295px;
+    background-color: white;
+    z-index: 80;
+
+
+}
+
+.circle3{
+    height: 9px;
+    width: 9px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+   
+    left: 598px;
+    top: 321px;
+    background-color: black;
+    z-index: 80;
+
+
+}
+.circle4{
+    height: 9px;
+    width: 9px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+   
+    left: 489px;
+    top: 322px;
+    background-color: black;
+    z-index: 80;
+
+
+}
+.circle5{
+    height: 28px;
+    width: 24px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+   
+    left: 481px;
+    top: 311px;
+    z-index: 80;
+}
+   
+
+
+
+.circle6{
+    height: 28px;
+    width: 24px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    
+    left: 590px;
+    top: 311px;
+    z-index: 80;
+}
+
+.circle7{
+    height: 102px;
+    width: 148px;
+    border: 0px solid;
+    border-radius: 50%;
+    position: absolute;
+   
+    left: 476px;
+    top: 360px;
+    background-color: pink;
+    z-index: 80;
+
+}
+
+.circle8{
+    height: 32px;
+    width: 31px;
+    border: 0px solid;
+    border-radius: 50%;
+    position: absolute;
+   
+    left: 558px;
+    top: 385px;
+    background-color: rgb(242, 42, 75);
+    z-index: 80;
+
+}
+
+.circle9{
+    height: 32px;
+    width: 31px;
+    border: 0px solid;
+    border-radius: 50%;
+    position: absolute;
+    
+    left: 510px;
+    top: 387px;
+    background-color: rgb(242, 42, 75);
+    z-index: 80;
+}
+
+
+.square1{
+    height: 45px;
+    width: 57px;
+    border: 5px solid rgb(240, 104, 127);
+    position: relative;
+    right: -433px;
+    bottom: 93px;
+    background-color: pink;
+    
+}
+.square2{
+    height: 33px;
+    width: 65px;
+    border: 5px solid rgb(240, 104, 127);
+    position: relative;
+    right: -589px;
+    bottom: 149px;
+    background-color: pink;
+    
+}
+

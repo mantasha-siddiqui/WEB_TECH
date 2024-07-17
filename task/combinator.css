@@ -1,0 +1,12 @@
+article #head p{  /* descendent selector */
+    background-color: aqua;
+    color: blue;
+}
+
+/* child selector */
+
+p>h1{
+    background-color: blue;
+    color: brown;
+}
+
