@@ -1,0 +1,37 @@
+
+p{
+    color: rgb(81, 0, 255);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 20px 10px 10px blueviolet;
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    
+}
+
+section{
+    color: blueviolet;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-indent: 50px; 
+
+
+
+    height: 300px;   
+    width: 300px;
+    border: 10px solid;
+    border-radius: 50%; 
+    color: black;
+    background-image: url(./bridge-8800485_1280.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    overflow-y: auto; 
+    text-align: center;
+    background: linear-gradient(to right bottom aqua , blue , lightblue); 
+
+}
+section::-webkit-scrollbar{
+    display: none;
+}

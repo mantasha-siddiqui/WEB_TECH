@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /*transform property is used to change the state of element suddenly and 
+        transition property is used to change the state of element within a duration (smooth transition) .
+        transition timing function =(linear,ease,ease in,ease out,ease in out)
+
+        *there is one property called filter:drop-shadow() (it has 4 property x , y , z and color values) and it is used to give shadow 
+        apply property to container it will give shadow to emoji.
+        to hide the ordered and unordered list property we have list-style-type:none.
+        The mix-blend-mode property defines how an element's content should blend with its background. 
+        
+        img{
+            transform: rotateX(120deg); 
+        }
+        img:hover{
+            transform: scale(1.2);   it does not have z axis*/ 
+            /*transform: skewx(80deg); here we use degree
+        }
+        button{
+            padding: 7px 20px;
+            background-color: rgb(6, 38, 49);
+            color: white;
+        }
+        button:hover{
+            transform: translate(140px,-200px);
+        }
+        i:hover{
+            transform: rotate(720deg);
+            transition-duration: 5s;
+            transition-delay: 2s;
+        }*/
+        div{
+            width: 370px;
+            height: 570px;
+            background-color: lightcoral;
+        }
+        img{
+            width: 300px;
+            height: 500px;
+            border: 5px solid aqua;
+            padding: 30px;
+            
+            mix-blend-mode: difference;
+        }
+         /*{
+            list-style-type: "none";
+            
+        }*/
+
+    </style>
+</head>
+<body>
+    <!--<img src="./british-shorthair-7965411_1280.jpg" alt="">
+    <button>Submit</button>
+    <i class="fa-regular fa-star fa-6x"></i>-->
+    <div class="image">
+        <img src="./mallow-8106680_1280.jpg" alt="">
+    </div>
+
+    <div>
+        <ul type="circle">
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*
+Text properties
+1- color 
+2- text-align 
+3- text transform
+4- text shadow 
+5- text decoration 
+6- letter spacing 
+7- word spacing 
+8- text indentation 
+
+text effect
+1- text overflow 
+2- word wrap:break word
+3- word break:keepall/breakall 
+4- writing mode:horizontal/vertical
+
+COLOR:-
+there are 6 ways to give color in css :-
+1- predefined color 
+2- rgb - in rgb the color value range from 0-255 (0- light shade and 255- dark color) 
+3- rgba - in rgba a stands for alpha (transparency or opacity) {the alpha value should be 0-1
+  if 0- complete transparent if 1- visible (solid color) we can also take  0.2 , 0.5  }
+4- hsl - hue(degree) saturation(percent) and lightness(percent) , we pass inside hsl {like 150deg , 50% , 80%}
+5- hsla - here a stands for alpha and range is 0-1
+6- hexadecimal values- we use # as prefix ex= #fffff.
+
+TEXT-ALIGN:- it is used to align the text
+to centre the text text-align:center and for the end text-align:end 
+
+TEXT-TRANSFORM: it is used to change the transform the text.
+we have three properties in text transform  capatalize , lowercase and uppercase .
+
+TEXT-SHADOW:-it is used to provide shadow to text. 
+it has 4 values { x axis (px) , y axis (px) , z axis(px) and  shadow color}
+
+TEXT-DECORATION:- used to decorate our text
+*like for underine we have text-decoration-line: we have four types linethrough , none , overline , underline.
+*to change the line color we have text-decoration-color.
+*for zig zag or some style line we have text-decoration-style: we have 6 option  wavy, doted , double , none , dashed, and solid.
+*to increase the thickness of line we have text-decoration-thickness: pass any pixel value.
+
+LETTER SPACING:-space between each letter.
+WORD SPACING:- space between each word
+TEXT INDENTATION :- empty white space (IT IS ONLY FOR FIRST LINE) ex- text-indent:
+
+*for space between two lines we have line-height:ex(50px)
+
+
+
+
+
+
+
+
+
+
+
+
+*/

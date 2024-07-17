@@ -1,0 +1,21 @@
+#head{
+    background-color: aqua;
+    color: blue;
+}
+.head1{
+    background-color: chartreuse;
+    color: brown;
+}
+*{
+    margin: 0;
+}
+h1,p{
+    color: blueviolet;
+    color: chocolate;
+}
+
+h1{
+    background-color: brown;
+    color: blueviolet;
+}
+

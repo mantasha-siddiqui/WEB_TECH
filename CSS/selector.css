@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}  /* default styling we have to give - to remove default space from browser
+
+input[type="text"]{
+    width: 600px;
+}
+
+a:link{
+    color: green;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+    color: black;
+}
+input:focus{
+    background-color: red;
+}
+a:hover{
+    font-size: 50px  /*we can use this hover effect with any element
+}
+p:first-child{        /*to target first tag
+             color: red;
+
+}
+p:nth-child(3){
+    color: blue;
+}
+p:last-child{
+    color: blueviolet;
+}
+div span:first-of-type{
+    color: gray;
+}
+
+div:has(span){
+    display: none;  /*if we dont want to show paragraph tag then we use :has
+
+} 
+ p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: blue;
+}
+p::before{
+    content: "😎";   /* for emoji - window+. 
+} 
+p::after{
+    content: "😎";
+}
+*/
+ul,li::marker{
+    color: blueviolet;
+}
+
+p::selection{
+    color: chartreuse;
+}

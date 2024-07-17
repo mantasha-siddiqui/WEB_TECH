@@ -1,0 +1,49 @@
+/*these three properties are sufficient*/
+p{
+    font-size: 50px; /* these three are external font property , here we can use our value*/
+    font-weight: 900;  /*it is used to give boldness to text it give some wt we can use only predefined values given */
+    font-family: "Playwrite MX", cursive; /* go to google search google font go to first link there is two option link(html) and
+     import(css) copy code from link and paste in head section ,  for download just download it and add that in our working vscode file 
+     then write @font-face { font-family:'myfonts';(set one name for that , then use src:url(pass path of file); 
+        then use it in font-family:"myfont"(same name should be there which u have given); */
+
+}
+input{
+    outline: 1px dotted orange ;  
+    outline-color: red;  /*outline-line inside the border it has four properties(color, style,width)
+     1-outline-offset(distance between our outline and border) 2- outline-style 3- outline-width 4-outline-color */
+}
+
+section{
+    height: 200px;
+    width: 200px; 
+    padding: 20px;  /*this is for all side but if we want to give different padding in all side so we can use padding-top,bottom,left and right
+    we can also write top , right , bottom , left (trbl) (ex- 20px 30px 40px 50px) 
+    if we pass two value we have first value top and bottom and second value is left and right
+    if we pass 3 values we have first value as top, left or right , bottom */
+    border: 1px solid; /* border have also property i.e border-left,right,up,bottom; ex-border-left: 5px groove; 
+    we can change color also write in that only ex- border-left: 5px doted green; */
+    margin: 20px; /*we also have margin property which is short hand i.e margin-top,bottom,left,right;  */
+    border-radius: 10px 50px 30px 60px;  /*(top left) (top right) (bottom right) (bottom left)*/
+}
+
+/* BOX-MODEL
+for all the tags in html have box model ,every element follow box model including br tag 
+ css box model is essentially a box which wraps around every html element. the box includes :-
+inner most box - content box (which is created by giving some ht and width)
+second inner box - padding box(internal space OR space between content and border box)
+third inner box -border box (space between padding and margin)
+fourth inner box - margin box (outside space)
+
+
+we also have property i.e box-sizing:- The CSS box-sizing property allows us to include the padding and border
+ in an element's total width and height .(we can decide our box size in this ht and width is already including)  
+it has two option border-box and content-box(by default we have contemt-box thats why lengthy is increasing)
+
+
+
+
+
+
+
+*/

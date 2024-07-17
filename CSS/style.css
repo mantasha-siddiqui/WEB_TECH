@@ -1,0 +1,99 @@
+/*
+css was introduced by hakon wium lie. css stands for cascading style sheet . it is used to style html page.
+in 1995 w3c accept hakon idea  and css comes they accept the idea and start working and thinking about css properties
+in 1996 they introduced first version of CSS1 due to lack of feature after 2 years (1998) they introduced new version CSS2 
+
+*2011: CSS3 begins to roll out as a collection of modular specifications, enabling advanced styling and interactivity.
+2020s: CSS4 is in development, poised to bring even more advanced features to the world of web design.
+
+from 1999 they start working on css and after 12 years in 2011 they launched
+current version is CSS.3 
+
+
+*for id = #
+*for class = .
+*first html then css then javascript 
+*****there are two principles 1- dry (do not repeat yourself), 2- soc(seperation of concern (seperate each and everything (html,css.js)
+- it will help increase development speed)
+
+*three ways to give CSS:-
+1- inline css-  is a method of applying styling directly to individual HTML elements using the “style” attribute
+  to provide inline CSS we use style attribute in opening tag
+    drawbacks- time consuming , reducing code readibility thats why they introduce internal css
+2- internal css - Internal or Embedded CSS is defined within the HTML document’s using <style> tag. 
+It applies styles to specified HTML elements. we will provide internal css inside head tag.
+drawback- it will create conflict , increase code readibility
+3- external css -External CSS contains separate CSS files (style.css) that contain only style properties with the help of tag attributes.
+  to connect css file we use link tag (link:css).
+
+  **first prioroty is constant i.e inline css ,  second - external , third - internal (distance matter) 
+  (external and internal priority depends),it depends whether we write link tag first or style tag it will go according to this. 
+
+
+  syntax for css is:-
+  selector(id,class) {
+                        property:value ex- (color: ;
+                         bg color:  ;
+  }
+
+  selector - to select a particular html element 
+  types of selector:-there are 5 types of selector in css,
+  1- simple selector
+  2- combinator selector
+  3- attribute selector - we can target element using attribute name also and  along with there value also 
+  4- pseudo class selector- it is used to define a special state of  element. 
+  there is one more pseudo class  :has tag.
+  for this we have single : colon
+    
+    types :-
+    1- dynamic pseudo classes                2- UI element pseudo classes                3- structural pseudo classes
+    a- linked (blue)                                  a- enabled                                   a-first child
+    b- active (red)                                  b- disabled                                   b-last child
+    c- visited (purple)                               c-  check                                    c-Nth-child()
+    d- focus                                                                                      d- first-of-type
+    e- hover                                                                                      e- last-of-type
+  ** in tables if we want to give color to odd and even cells then we use nth child {ex- p:nth-child(odd)}
+5 - pseudo element selector- it is used to style specified part of an element.
+it has :: double colon
+some pseudo elements are:-
+::first-line
+::first-letter
+::before
+::after
+::marker to style bullets number alphabets
+::selection - for selecting the content and style them
+
+1- simple selector: 
+  a- id selector: (# )should be unique and for uniquely targeting
+  b- class selector: (.) to target multiple element. 
+  c- tag / element selector: with the help of tag name we will select
+  d- universal selector:(*)selector can also select all elements if we want to give same style to whole html tags we use universal selector
+  to remove the default space which is in browser , we use universal selector
+  e- grouping selector:The grouping selector selects all the HTML elements with the same style definitions.
+  whenever we want to give styling to multiple element then we make a grp of element
+  ex- h1, h2, p{
+               }
+  It will be better to group the selectors, to minimize the code.
+  To group selectors, separate each selector with a comma.
+  we can use there class name or tag name or id name
+   priority of these tags (id> class>tag >universal) 
+
+   2-combinator selector : it will work on the relationship ,  with the help of combinator selector 
+   we can target any element based on thier relationship between the element
+   we have 4 types :
+   1- descendent selector
+   2- child selector
+   3- general sibling selector
+   4- adjacent sibling selector
+
+   1- descendent selector:- symbol of DS is space. we target the elements based on there ancestor.
+   2- child selector:- it select all element that are children of specific element. symbol is > we will take reference from immediate parent
+   3- general sibling selector - symbol is ~ - The general sibling selector selects all elements 
+   that are next siblings of a specified element. (div ~ li)
+   4- adjacent sibling selector - symbol is + - The adjacent sibling selector is used to select an element 
+   that is directly after another specific element. (div + li).
+   
+
+
+
+*/

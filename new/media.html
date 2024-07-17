@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Media Tag  is a group of tags that help with creating multi-media experiences on a web page.
+         Media group tags include <audio>, <video>, <iframe>, <source>, and others.
+        
+        AUDIO TAGS - *we should always use controls attribute inside audio tag to provide control to audio 
+        then browser will understand this is audio 
+    * controls is a boollean attribute so no need to pass any value
+    * autoplay is an attribute which is used to play the audio automatically
+    * loop is an attribute which is used to play the sound on repeat-->
+    <audio src="./flow-211881.mp3" controls autoplay loop ></audio>
+    <video src="./205923_small.mp4" controls></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=w5foMlFRjk0gZ3ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14032.918226499112!2d77.03973715234551!3d28.44249566230108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1866a021dca3%3A0x48747b8bb3b2100f!2sSector%2039%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1718543306441!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!--to display any document inside our webpage we use iframe
+     * cht = channel type and for dimension we write chs - channel size and for data we use chl - channel link
+    *  for qr code we go to website like qrserver or chart.googleapis.com
+     * for images audio or video go to pixabay site-->
+    <img src=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/" alt="">
+
+    <!--there are two types of path
+       * we always use relative path
+     1-relative path will take reference from current directory (i.e ./ current folder will open, ../ it will go outside of current folder)
+     2-absolute path will take the reference from root directory (i.e c drive or google) -->
+   
+
+    
+</body>
+</html>

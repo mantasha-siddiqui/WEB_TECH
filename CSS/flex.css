@@ -1,0 +1,43 @@
+/*
+
+to arrange the element we have two things:-(flex and grid) 
+flex:- 1D layout for arrranging the element in one direction (x direction or y direction)
+
+the default direction is row we can change the direction we can change using flex:direction property : to change the direction of flex items
+it has 4 property (column , columnreverse ,row, rowreverse)
+container = flex container , inside that container there are boxes or items which is called flex items
+flex:wrap= it is used to wrap the flex items in flex container we have three values (nowrap, wrap and wrapreverse)
+justify:content= centre,start((left or flexstart),end(flexend or right), space-between , space-evenly , space-around. 
+ = it will allign the items on main axis . 
+*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+article{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;  /*the thing which i have to arrange give that particular element's parent as display: flex;*/
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+    align-content: center; /*for vertical we have property align-item and align-content 
+    in align items we dont have space-around , between and evenly property)=these property will asssign the item in cross axis 
+    when flex direction  is row 
+    if flex direction is column then we reverse the things.
+    */
+
+}
+
+div{
+    height: 120px;
+    width: 120px;
+    border: 1px solid;
+    background-color: aqua;
+}

@@ -1,0 +1,176 @@
+<!-- *MARQUEE TAG is used to create a scrolling piece of text or an image.
+     *TWO ATTRIBUTE  are there in marquee tag BEHAVIOUR AND DIRECTION SO DEFAUlT direction  IS RIGHT TO LEFT BUT FOR LEFT TO RIGHT
+        * we can pass up down left right in direction 
+        *The Marquee behavior attribute in HTML is used to set the behavior of scrolling. 
+        *we have three types in behaviour slide , scroll and alternate 
+      /*there is one attribute in marquee tag that is scrollamount which control the speed of the text-->
+<!--*the default behaviour of form is refreshing 
+       *default behaviour of anchor tag is navigation from one tab to another
+     *The target attribute specifies where to open the linked document.-->
+
+<!--*novalidate can be used only in form tag and it means no validation validation is removed from all input field-->
+<!--*in method attribute it will specify which action u have to perform after submitting the form 
+        *we have three types:- 
+        1- dialog -for pop up message 2- get - to fetch the data like for login 3- post - to collect the data and send it to
+         server like sign up
+        *action attribute means we can the path of  file and it is store on which server -->
+<!--to make connection between input and label field there is attribute called for in label tag we will pass any value
+             and the same thing we will pass in input tag  in id attribute--
+              <!--* The placeholder attribute defines the text displayed in a form
+            we can use placeholder with username email submit -->
+        <!-- *we need to send the data in form of key and data and we need to specify the data so that it get stored in 
+            server properly like name="username"
+           <!-- *short form is input: 
+           * label and input is inline element-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <marquee behavior="alternate" direction="right">
+      MANTASHA SIDDIQUI ></marquee>
+    <form method="get" target="_blank" enctype="multipart/form-data">
+      <div>
+        <label for="name">Username : </label>
+        <input type="text" name="username" id="name" placeholder="enter your username" minlength="5" pattern="[A-Za-z0-9]{10}" required/>
+       
+      </div>
+     
+      <div>
+        <label for="mail">email : </label>
+        <input type="email" name="email" id="mail" />
+      </div>
+      <div>
+        <label for="pwd">password : </label>
+        <!-- *as we use pwd input type pwd will be hidden-->
+        <input type="password" name="password" id="pwd" />
+      </div>
+      <div>
+        <label for="birth">DOB : </label>
+        <input type="date" name="DOB" id="birth" />
+      </div>
+      <div>
+        <!-- *to select only one selection we use input type radio and for multiple selection we have checkbox-->
+        <label for="">gender : </label>
+        <span>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">male</label>
+        </span>
+        <span>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">female</label>
+        </span>
+        <span>
+          <input type="radio" name="gender" id="" value="other" />
+          <label for="">other</label>
+        </span>
+      </div>
+      <div>
+        <label for="">skills : </label>
+        <span>
+          <input type="checkbox" name="skills" id="" value="webtechnology" />
+          <label for="">webtechnology</label>
+        </span>
+        <span>
+          <input type="checkbox" name="skills" id="" value="SQL" />
+          <label for="">SQL</label>
+        </span>
+        <span>
+          <input type="checkbox" name="skills" id="" value="JAVA" />
+          <label for="">JAVA</label>
+        </span>
+        <span>
+          <input type="checkbox" name="skills" id="" value="C++" />
+          <label for="">C++</label>
+        </span>
+        <span>
+          <input type="checkbox" name="skills" id="" value="python" />
+          <label for="">python</label>
+        </span>
+      </div>
+
+      <div>
+        <label for="">Resume : </label>
+        <input type="file" name="" id="" />
+      </div>
+
+      <div>
+        <label for="">Image : </label>
+        <input type="file" name="" id="" />
+      </div>
+
+      <div>
+        <label for="">contact no : </label>
+        <input type="number" name="" id="" max="50" />
+        <!--for number we have input type as tel-->
+      </div>
+      <div>
+        <label for="">Address : </label>
+        <textarea name="" id="" cols="15" rows="5"></textarea>
+        <!-- for multi line input field we have tag called textarea 
+            *textarea is resizable if we refresh it will come to actual size -->
+      </div>
+      +
+      <div>
+        <label for="">select nearest location : </label>
+        <select name="" id="">
+          <option value="select city name" selected disabled> select city name
+          </option>
+          <option value="delhi">delhi</option>
+          <option value="gurugram">Gurugram</option>
+          <option value="punjab">punjab</option>
+          <option value="rajasthan">rajasthan</option>
+          <option value="banaras">banaras</option>
+          <option value="lucknow">lucknow</option>
+          <!--to create dropdown we have select tag *inside select tag we have to use option tag for as many as option -->
+        </select>
+      </div>
+      <input type="submit" value="submit" />
+      <!--we can also use button-->
+      <input type="reset" value="reset" />
+      <!--we have different input types in html-->
+      <input type="color" name="" id="" />
+      <!--for changing emoji or text color-->
+      <input type="hidden" name="" />
+      <!--it will not show anything now we use hidden attribute-->
+      <input type="month" name="" id="" />
+      <input type="range" name="" id="" />
+      <!--to increase volume , size of img-->
+      <input type="search" name="" id="" />
+      <input type="url" name="" id="" />
+      <input type="week" name="" id="" />
+
+      <!--datalist tag -->
+
+      <input type="text" name="" id="" list="dropdown" />
+      <datalist id="dropdown">
+        <!--to make connction b/w input type and data list we use list attribute in input tag and id attribute in datalist tag-->
+        <option value="raipur">Raipur</option>
+        <!--it will show only those result which we have written in value attribute-->
+        <option value="delhi">delhi</option>
+        <option value="gurugram">Gurugram</option>
+        <option value="punjab">punjab</option>
+        <option value="rajasthan">rajasthan</option>
+        <option value="banaras">banaras</option>
+        <option value="lucknow">lucknow</option>
+        <option value="gwalior">gwalior</option>
+        <option value="lucknow">lucknow</option>
+      </datalist>
+    </form>
+   
+  </body>
+</html>
+ <!--we have tag called datalist it is used to create search box with dropdown list 
+      * when we type anything in search bar by writing only first letter 
+        it give some automatic result for that we use datalist tag 
+     *The <datalist> tag is used to provide an "autocomplete" feature for <input> elements 
+    The <datalist> tag specifies a list of pre-defined options for an <input> element.
+       Users will see a drop-down list of pre-defined options as they input data.-->
+<!-- *TYPE ATTRIBUTE  is used to specify which type of input field is that .
+       *for uniquely identify and for connection we use id attribute  
+       <!-- *we need to specify what gender we are selecting we use value attribute 
+               *The value attribute specifies the value of an <input> element.
+             *The name attribute specifies a name for an HTML element.   -->

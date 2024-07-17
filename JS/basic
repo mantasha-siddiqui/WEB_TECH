@@ -1,0 +1,248 @@
+javascript is scripting language used to add functionality to the webpages .
+with the help of html and css, the webpage is static.
+with the help of html and css and js, the webpage is dynamic.
+
+single page and multi page application.
+
+MERN- mangodb, express js , react js , node js.
+
+HISTORY OF JS
+JS is introduced by Brendan eich in year 1995 within 15 days.
+the first name of JS was Mocha (they were able to see live changes so they change the name as livescript), they again rename in same year i.e Livescript. then again it was rename as Javascript.as Js doesnt contain standerization (rules) after 2 year they handover this language to ECMA corporation  (european computer manufacturer association)they have given some standard rule or standerization to JS. after giving standard to JS
+they introduced first version of JS as ECMA script-1 (ES-1). the first official name of JS is ECMA script in 1997.
+ECMA corporation is located in switzerland.
+
+*current version of JS is ES-14 but first stable version of JS is ES-6.
+*before ES-6 we have only var but it does not provide security so in ES-14 they introduce let and const.
+
+FEATURES OF JS
+1- JS is a scripting language.(it will define when and how our browser will act)
+2- JS is object based language.(in JS everything is object. (string,datatype,array all this is object))
+3- JS is dynamically typed language.(when we pass any value it get automatically converted)
+4- JS is weakly type language.(with one variable we can store any value (while declaring variable no need to mention datatypes))
+5- JS is interpreted language. (interpreted means line by line so if any line contain error it will not execute and it will not go to next line)
+6- JS is synchronous in nature.(only one task at a time) *(asynchronous- multi task at a time). we can make JS asynchronous by using concept like async-await, promises,callback. default behaviour of JS is synchronous.
+
+* all scripting language are programming language but only some programming lang are scripting lang.
+we can run JS at two envoironment:-
+browser and node js (node js is a runtime envoironment)
+
+browser                          JSE(javascript engines)
+google chrome                      V8
+Mozilla                          spider monkey
+microsoft internet explorer      chakra
+Safari                           JS core        
+
+runtime polymorphism is not possible in js that's why it is not completely object oriented language.
+
+there are two ways to write JS :-
+1- internal (inside the html code)
+2- external (we create a seperate file)+
+
+
+ADVANTAGES OF JAVASCRIPT
+1- easy to learn and implement.
+2- reduces server load.
+3- Efficient performance
+4- regular updates
+5- plateform independent
+6- it has more frameworks and libraries.
+
+DISADVANTAGES OF JAVASCRIPT
+1- Security Issues
+2-Browser Compatibility
+3-Client-Side Execution
+4-Lack of Debugging Facilities
+5-Single-Threaded Nature
+
+in JS we have 60+ keywords.
+
+in JS literals is of 2 types :-
+1- Primitive datatype
+string,boolean,null,undefine,symbol,BigInt.
+2- Non-Primitive datatype
+object,function,array
+
+*datatype is used to specify which type of data to be stored.
+*seperator are used to seperate the statements.
+*operator is used to perform specific operation on operands.
+*to declare variable in JS we have 3 things:-
+let , var , const
+
+let a = 10;
+let a //declare
+a=10 // initialize
+
+var -   declaration is possible  and initailization is also possible and it can be done in different line  
+        re-initialization is possible  
+        re-declaration is possible (same variable name) 
+        scope is global(access anywhere) 
+        hosting is possible  (without initializing also ,default value be undefined)   
+let  -  declaration is possible  and initailization is also possible and it can be done in different line 
+        re-initialization is possible   
+        re-declaration is not possible
+        scope is script 
+        hosting is not possible (bcz of TDZ)     
+const -  only with initialization declaration is possible in same line
+        re-initialization is not possible   
+        re-declaration is not possible 
+        scope is script
+        hosting is not possible (bcz of TDZ)  
+
+
+* hoisting is accessing the variable before declaration. 
+ex- console.log(a)
+    var a = 10;
+OR hoisting is JS default behaviour of moving all declarations to the top of current scope.  
+
+*inside script scope we have something called TDZ (temporary dead zone). whatevere variable is in tdz so for that variable default value will not be initialized.
+*TDZ is a phase between variable declaration , initialization.
+
+* Datatype is of 2 types 
+1- Primitive datatype
+string,boolean,null,undefine,symbol,BigInt,number
+2- Non-Primitive datatype
+object,function,array
+
+* undefined and null is value (if we dont initialize then it is undefined)
+* symbol is used to get unique results.
+
+* output methods in JS :-
+1- console.log()
+2- document.write()
+3- document.writeln()
+
+* pop-up Methods:-
+1- alert()
+2- prompt()
+3- confirm()
+
+* console is an object present inside windows object(global object).
+console.log is visible on console panel.
+* document is also an object present in window object.
+document.write is visible on webpage(UI),it will print the output on UI.
+* document.writeln it will also print the output on UI. 
+the only difference between these are that document.writeln will give space of 1 character  after the statements or words.
+
+* alert is a method which is a windows object (window.alert()) as alert is window object so without window also we can write alert .
+ it is pop up method ,here we have only one button (ok) , it is used to show alert msg on webpage.
+ to store the data of alert msg  we will take a variable i.e let a = alert();
+ alert method will not return any data
+
+* prompt method is used to take some data from user.
+  the return type of prompt method is string 
+  if we cancel the pop up msg then it will give null and if we give any data it will give that data only.
+
+* confirm method it is used too show some confirmation msg here it has two button (ok and cancel)
+  the return type of confirm method is boolean
+
+* typecasting is used to convert from one  type of data to another
+it is two types :-
+1- implicit-typecasting done by javascript engine
+2- explicit-typecasting done by programmer we can achieve explicit by using constructor
+
+
+* 6 falsy values in JS:-
+(empty value)"" , 0 , false , null , undefined , NaN(input is not valid to convert it into datatype then NaN will come (ex= "ab"))
+
+* operator is predefined symbol used to perform particular task
+types :-
+1- arithmatic operator  +,-,*,/,%,++,--
+2- assignment operator  += , -= , *= , /= , %= , =
+3-comparison operator   < , > , != , >= , <= , == , ===
+4-logical operator      && , || , !
+5- ternary operator     (condition)? True statement : false statement
+three types :-
+1- unary - operator taking one value at a time ex - increement  , decreement
+2- binary- operator taking two value at a time.
+3-ternary- operator taking three value at a time.
+
+== it checks only values and === it checks value as well as datatype.
+nullish operator= if left side is null it will give RHS value 
+ex- int a = 5;
+    console.log(a || 10);  // if a is null then it will give same o/p as 10 but if a has value then it will give that value only
+
+* conditional operator are used to perform different actions based on different conditions.
+types:-
+1-if -Executes a block of code if a specified condition is true.
+2-else - (if else) = when multiple condition is there 
+3-else if ladder = when one condition is there
+4-switch
+* in switch case i can pass expression we cannot pass condition but inside switch, cases is there so there we can pass conditions and expressions 
+* and break is mandatory to be used
+* but in else if we can only pass condition.
+
+* control statement - break and continue.
+* LOOP :- it can execute a block of code a no of times.
+types:-
+1-while loop- The while loop loops through a block of code as long as a specified condition is true.
+2-do while loop - This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+3-for loop-loops through a block of code a number of times
+
+* there are two advanced for loop in JS:- 1-for of 2- for in
+
+* A function in JavaScript is block of code which is used to perform a particular task, with function we can reuse code, we can write codes that can be used many times , we can use same code with diff arguments.
+syntax:-
+function declaration - function FunName(){
+                         //statement(function body)
+function declaration - }
+function calling statement - FunName()
+
+
+* to execute the code we have to call the function
+while calling function we pass argument and we can pass multiple values (10,20,30)
+which declaration we pass parametre (a,b,c), same no of varia
+ble as argument in parametre no need to use keyword(let,const)
+parametre name can be anything (first argument - first parametre)
+
+TYPES OF FUNCTION:
+1-anonymous function= function without any name
+let a = function(){
+}
+* to call AF we can store that function in variable and call that function by there variable name , we cannot call function with name
+2-named function- function with some name
+
+3-function with expression- storing any function in one variable, it is also called functional expression/first class function
+4-nested function- function declared inside another function.
+to call nested function there are two ways:-
+1-calling child function inside parent function
+2-function currying:- only one execution  context will be there at a time
+
+5-immediately invoked function expression(IIFE)- invoking the functiom immediately after its declaration,WE CAN EXECUTE  IT ONLY ONCE.
+6-arrow function
+7-higher order function
+8-callback function
+9-generator function
+
+JS engines:-
+parser in JS will split the code into small small chunks. it will pass it to jit complier , jit compiler will convert that chunks to byte code.
+interpreter will compile it line by line.
+processor will process that code and give the final result.
+
+AST = abstract structure tree it will create hierarchy tree structure of our html file.
+it will hold our complete structure in tree format(only html file)
+each element is known as node.
+in call stack code execution is done 
+in heap area all the object is stored.
+
+
+* whenever any function is declared parent function is present inside that in 1st case of nested function (we can access the data of parent function in child function with the help of lexical scoping) but in 2nd case when any function is declared parent function is not there as parent function is in exe phase so every child function is called in that only.(but in this case parent function is not present in call stack 
+so how can we get the data? so that data is coming from closure object)
+
+* Lexical Scoping:-accessing the data from outer scope.
+* closure object:- it is an object which holds the data which is required to child function 
+closure object will get created whenever child function is accessing parent data ,doesnt matter parent function is present inside child function.
+* in both cases closure object is created but in 1st case it will access the data with lexical scoping.
+ but in second case lexical scoping is not there.
+* if in parent we have 3 variable but in child function we are accessing 2 variable of parent function so only that two variable is stored in closure object.
+
+Q-wjf to find factorial of no (use prompt)
+Q-wjf to check the given no is palindrome or not
+Q-wjf to check the given no is armstrong no or not
+Q-wjf to create the fibonacci series upto 5
+Q-wjf to check the given no is prime no or not
+
+
+
+
+

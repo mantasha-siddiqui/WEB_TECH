@@ -1,0 +1,46 @@
+/*
+
+background properties:-
+1- background-image : url("image.jpg)
+2- background-repeat: no-repeat/repeat-x/Y
+3- background-size:
+4- background-position:
+5- background-attachment:
+6- background
+7- background-color 
+ 
+    solid is one of the border style we also have groove(for frame) also dash , double 
+    background-color: aqua; for one color
+    whenever we want to multiple color in background we use only background it has linear gradient function {direction, colors}
+    for direction change like top to bottom ww write to right (up , down , left) before using color as above here we also have 
+    radial gradient function but we cannnot pass direction bcz it start from center 
+    Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)
+*/
+    
+
+section{
+    height: 300px;   /*container properties*/
+    width: 300px;
+    border: 10px double;
+    border-radius: 50%;  /*for circle*/
+    color: black; 
+    
+    /*background: linear-gradient(to right bottom, orange,white,green); 
+    background: radial-gradient(aqua,blue,lightblue);
+    background-image: radial-gradient(pass the colors);
+    background-image: conic-gradient(blue 45deg, aqua 45deg 90deg, lightblue 90deg 135deg, darkblue 135deg 160deg ); */
+    background-image: url(./bridge-8800485_1280.jpg); 
+    background-repeat: no-repeat; /*to avoid repeatation of img */
+    /*to change bg color of image and inside that we have url function and inside that we have to pass the path of image*/
+    background-position: center; /*to bring img in centre*/
+    background-size: cover; /*to fit in whole frame
+    when we use image we have to use these 4 properties.
+    to avoid overlapping like to combine  text and img into same container and we have overflow:y property also */
+    overflow-y: auto; 
+
+
+}
+    
+    
