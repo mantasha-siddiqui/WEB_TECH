@@ -209,7 +209,9 @@ to call nested function there are two ways:-
 2-function currying:- only one execution  context will be there at a time
 
 5-immediately invoked function expression(IIFE)- invoking the functiom immediately after its declaration,WE CAN EXECUTE  IT ONLY ONCE.
-6-arrow function
+6-arrow function:- it is short hand to declare a function 
+syntax-  ()=>{}  that arrow is called fat arrow.to call this function assign this function to variable and with the help of variable we can call
+
 7-higher order function
 8-callback function
 9-generator function
@@ -243,6 +245,166 @@ Q-wjf to create the fibonacci series upto 5
 Q-wjf to check the given no is prime no or not
 
 
+* THIS keyword in function:-
+inside a function this keyword will refer to window object
+
+//binding is a process of refering this keyword to a particular object
+how to perform binding - {function_name.call method(object name , extra arguments)}
+//to perform binding we have three method
+//call(after calling it binds the data) , apply , bind 
+// pass parametre in declaration and we have to pass argument in calling function
+//to immediatly execute function use call and apply and to execute that function lately we use bind
+
+* there are two types of return statement 
+1-implicit 
+2-explicit
+
+* implicit - without using return keyword if our function is returning anything
+let fun = (a,b) => a+b;
+console.log(fun(20,30));
+RULES:-
+1- we should not use function body
+2- no need to use return keyword
+3- we should have only one statement in function
+
+to execute multiple statement use ()
+let fun = (a,b) => (clg(a,b), a+b);
+clg(fun(20,30));
+
+*implicit return is only possible with arrow function (with rest all function it is not possible)
+
+* explicit - return keyword is present
+
+* arrow function different from other function bcz of 
+1-short hand
+2-implicit  is possible
+3-in arrow function binding is not possible rest all function it is possible
 
 
+* generator function
+ generator function will create different different generator object (when it gets called)
+--we have yield keyword is creating that object which we are getting (only expression we can pass)
+--we use function keyword with *
+--there is no return keyword 
 
+function* generator(ac) {
+        yield ac+10;
+        yield ac+20;
+        yield ac+30;
+        yield ac+40;
+}
+
+let ab = generator(10); // store calling function in one variable
+console.log(ab);
+console.log(ab.next().value);
+console.log(ab);
+console.log(ab.next().value);
+console.log(ab);
+console.log(ab.next().value);
+console.log(ab); 
+
+
+*homogenous - same type of data(in array we can store array type of data)
+
+ARRAY:-
+* it is a continious block of memory
+* in  JS array is heterogenoues in nature (different types of data we can store)
+
+let arr = [10, "mantasha", true, function name (add) {}, {}, [] ];
+
+* in JS we can create array in 2 ways 
+1- by array literals:-
+ syntax = let arr=[10,"hello",60];
+
+2- by using array constructor(using new keyword)
+work of new keyword is to create the object
+syntax:-
+let arr = new array();
+let arr = new array(10,40,30);
+console.log(arr); // it will give []
+--if we pass any number then it return size of an array {ex = 10 value creating one array of length 10 and 10 empty element}
+--if we pass string boolean it will return array element 
+--if we pass multiple values it will consider as array element
+
+* if we pass value other than no it will consider it as array element
+
+* hoisting is possible in two ways:-
+---variable hoisting
+---function hoisting- (only in name function function hoisting is possible)
+
+* function hoisting is not possible in those function where we have declare that function in some variable
+
+
+* array length is not fixed in JS (we can insert value after it is execution also)
+
+* ARRAY METHODS IN JS
+
+1- push method will add/insert the element at the last
+2-unshift method - will insert the element at the starting
+3- indexof method will accept an array element it return the index value
+4- lastindexof it will return the last index value of last occurence
+5- flat()
+
+
+OBJECT - object is nothing but the thing which has existence in the world , it has state and behaviour(properties and method) (datatypes, primitive non primitive all are object)
+everything in javascript is an object
+
+3 ways to create object are:-
+1- by object literals
+2- by using object contructor (new keyword)
+<!-- 3- by using object constructor (without using new keyword) -->
+
+
+///OBJECT METHODS///
+we have methods of object:-(suppose we want to access every details so we have to write each object in console 
+so it will make the code lengthy so instead of printing we can use methods)
+* object can also have methods 
+* methods are action that can be performed on object.
+/* ARRAY METHODS 
+1. keys: - it will return array of keys
+2. values: return array of values
+3. entries: array keys and values
+4. assign:- it is used to merge two object
+5. seal:- we can only update the properties
+6. isSealed:- it is used to check whether the particular object is sealed or not
+7. freeze:- we cannot do any modifications is an object
+8. isFrozen:- it is used to check  whether the particular object is frozen or not
+9. hasOwnProperty:- it is used to check  whether the particular property is present in an object or not.
+
+
+* STRING is a collection of character it can be single value aur more than two value in double quotes.
+three ways to declare string:-
+1-single quotes
+2-double quotes
+3-backtic
+
+* some string method in JS:-
+string length (it is a property)
+string slice()
+string substring()
+string substr()
+string replace()
+string replaceall()
+string toUpperCase()
+string toLowerCase()
+string concat()
+string trim()
+string trimStart()
+string trimEnd()
+string padStart()
+string padEnd()
+string charAt()
+string charCodeAt()
+string split()
+string fromcharcodeAt()
+
+* ADVANCED FOR LOOP
+1- FOR OF - 
+for(const x of arr)  //declare one variable and pass an array 
+it will return element , it is valid will for string also
+2- FOR IN - it will return index
+
+                     FOR OF           FOR IN 
+array               working           working
+string              working           working
+object             not working        working

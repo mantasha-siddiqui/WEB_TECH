@@ -19,3 +19,4 @@ console.log(window);
 
 let z = confirm("this is just a message");
 console.log(z);
+console.log("mantasha");
