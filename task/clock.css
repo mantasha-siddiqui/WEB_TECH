@@ -27,17 +27,15 @@
 }
 
 .niddle1{
-    width: 13%;
-    height: 5px;
+    width: 2px;
+    height: 170px;
     background: black;
     position: relative;
     left: 604px;
-    bottom: 34px;
-    transform: all 5s ;
+    bottom: 203px;
     transform-origin: bottom;
-}
-.niddle1:hover{
-    transform: rotate(120deg);
+    
+
 }
 
 .niddle2{
@@ -46,17 +44,19 @@
     background: black;
     position: relative;
     left: 605px;
-    bottom: 192px;
+    bottom: 354px;
+    transform-origin: bottom;
 
 }
 
 .niddle3{
-    width: 2px;
-    height: 140px;
+    width: 5px;
+    height: 112px;
     background: black;
     position: relative;
-    left: 605px;
-    bottom: 184px;
+    left: 659px;
+    bottom: 371px;
+    transform-origin: bottom;
 
 }
 .one{

@@ -1,7 +1,7 @@
 // let str = 'Velocitai';
 // console.log(str) ;              //single quotes
 // console.log(typeof(str));
-// let str1 = "velocitai"          //double quotes
+// let str1 = "velocitai" ;          //double quotes
 // console.log(str1); 
 // let str2 = `velocitai` ;        //bactick 
 // console.log(str2); 
@@ -34,16 +34,17 @@ console.log(str2.replaceAll("java", "python"));  // if we want to replace java w
 //replaceall will replace all occurence 
 console.log(str.toLowerCase());
 console.log(str.toUpperCase());
-console.log(str1.concat (str1,' ' ,str2));  // used to concat two string
+console.log(str1.concat (str1,' ' ,str2));  // used to concat two string  
 console.log(str.trimStart()); //remove space from starting
 console.log(str.trimEnd());  // remove space from end
-console.log(str.trim());     //it will remove space from end and start (it is short hand)
-let mobileNo = "1234567890";  //first slice last four character 
+console.log(str.trim());     //it will remove space from end and start (it is short hand) //first slice last four character 
+let mobileNo = "1234567890";  
 let no = mobileNo.slice(6);
-console.log(no);
+console.log(no); 
 console.log(no.padStart(10,"*"));  // accept two parametre(how much length we want , what you want like *)
+
 //OR 
-// let no1 = 7849;
+// let no1 = 7849; //******1234 */
 // console.log(no1.padStart(10,"*"));
 
 
@@ -54,7 +55,7 @@ console.log(no2.padEnd(10,"*"));
 
 console.log(str.charAt(2));
 //console.log(str.charAt(-2)); //charAt() is not supporting -ve index
-console.log(str.charCodeAt(2));  // it gives ASCII code (it convert characyer into ASCII code)
+console.log(str.charCodeAt(2));  // it gives ASCII code (it convert character into ASCII code)
 console.log(String.fromCharCode(97));  //it is a contructor method (it convert ascii into string)
 console.log(str.split());   // to convert string into array
 

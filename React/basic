@@ -1,0 +1,104 @@
+* the application which operates within multiple webpages - multipage application
+   to create it we have html , css and JS 
+
+* the application which operates within single webpages - singlepage application
+  to create it we have libraries like react , angular , and vue JS
+
+library - set of predefined codes
+framework - collection of libraries
+
+* React is a JS library which is used to develop Single page applications , react allow to create reusable UI components
+, it is JS library for building UI
+
+* HISTORY OF REACT
+it was developed by Jordan Walke (a employee in Facebook), earlier name of react was FaxJS.+
+before 2011 Fb was multipage but in 2011 jordan walke and his team implemented react on Facebook
+in 2012 they implemented react on instagram also
+in 2013 they made react open source 
+
+* MVC (Model View Controller)
+view to show frontend - view 
+backend - model
+to control both view and model - controller
+
+* suppose we have make one complete webpage so if we use MVC only one developer will manage all the things 
+but now all libraries use  component based architecture bcz here task is split into different developer and after completion we will merge into one so development speed is faster
+
+* for frontend we use component based architecture , we dont use MVC
+   component based architecture will helps us increase development speed.
+   after angular js-1 , all component and libraries are following component based architecture
+   angular js 1 - in this JS is there and in remaining like react , vue , angular 2 there is JS and typescript
+
+* Typescript is strictly typed it will help us to improve security , it is more secure than JS
+
+* Features of reactJS
+1- reactJS is declarative 
+in react there are predifined codes so just import that code no need to think about how it is working
+2- reactJs is component(the smallest part of webpage) based architecture.
+3- reactJS is learn once and write anywhere.
+
+
+* ways to use React 
+to install we have CDN links and NodeJS 
+nodeJS has two things CLI and create own CLI
+for CLI we have create react JS and VITE
+and for creating reactJS = npm(node package manager) , npx(node package executer) , yarn
+
+* Advantage of CDN 
+1-improve website security
+2-improving website load time
+3- increasing content availibility and redudancy
+4- reducing bandwidth cost
+
+* babel is a transfiler which will convert JS-x into browser understandable language
+browser only know html , css and JS 
+
+* NPM is a package management that is used to install, uninstall, and update Javascript packages on your workstation, whereas NPX is a package executer that is used to directly execute Javascript packages without installing them.
+* Yarn is a package manager that installs dependencies for your project. 
+
+* whatever inbuild folder or script or dependencies all things are present in node modules, it is heart of react js , without this reactjs will not work.
+first if u are not in current directory then write cd my-app.
+to run the react server command is npm start we write it in terminal. 
+
+* index.js is the entry point for your application in npm amd npx of react js it is present in src file
+* in both npm amd npx html and css file is present in public file
+
+FOR VITE
+npm create vite@latest 
+in vite entry point is main.jsx
+
+it holds all the details of your package it is in package-json
+vite is faster than npm amd npx 
+
+jsx - JS and XML 
+tsx - typescript and xml
+bcz of xml, page is loading without refreshing
+
+* MODULE BUNDLER
+it will bundle all the modules and it will return one new module for browser (ex- home , login , contact pages is there it will combine all in one)
+* types of module bundler:
+webpack , parcel ,rollup , browsify 
+* in vite ther is rollup
+
+* hot module replacement is a dependency it exchanges, adds , or removes modules while an application is running , without a full reload.
+
+* SOME COMMANDS ARE
+1- start - it will start the development server
+2- test - to test any dependencies of react application like npm test and yarn test
+3 - bulid - to bulid our project for production (npm run build , yarn build ) by usimg this command it will create carbon copy
+4 - eject  - we can specify our own configuration, like when we write our own configuration then the older(pre defined) configuration will be vanished
+
+* how react works internally
+whenever we start the process like we will show the webpages real dom is created then virtual dom ios also created
+virtual dom it is exactly replica of real DOM
+* react always interact with virual DOM , react is not directly interactiong with real DOM
+when any change happen in react the change will come to virtual DOM and as soon as change happens it will create new and updated virtual DOM and it is visible in updated virtual DOM
+to find that changes we have one algo Diffing Algo it will compare the old virtual DOM to new Virtual DOM and find the changes then that particular changes will patched to real DOM 
+and this process is called reconcilation process
+and as sooon as real DOM is updated virtual DOM is also upadated
+
+* it older version we dont have react fibre so they are slower, and current version of react fibre is v16.8 
+* if we have changes in any node it will simultaneously affect the upadated DOM  so reconcilition process will occur for every node but it will work synchronouly so after one changes another changes will execute so it is making application slower so we have react fibre 
+* react fibre will make the application faster it will follow the same process but asynchronously
+* react always interact with virtual dom 
+* REACT FIBRE - it ia an internal engine change geared to make react faster and smarter

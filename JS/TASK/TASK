@@ -1,0 +1,70 @@
+//take all heading tags change there color   *TASK*
+
+// let h1 = document.getElementById("text");
+// h1.style.textDecorationColor="aqua";
+// h1.style.color="blue";
+// h1.style.textDecorationStyle="wavy";
+// h1.style.textDecorationLine="underline";
+// h1.style.textDecorationThickness="5px";
+// h1.style.fontWeight="2px";
+// h1.style.fontFamily="Courier New";
+// h1.style.fontSize="50px";
+// h1.style.textShadow="0px 10px 10px black";
+
+// let h2 = document.getElementsByClassName("Name");
+// h2[1].style.textDecorationColor="yellow";
+// h2[1].style.color="green";
+// h2[1].style.textDecorationStyle="wavy";
+// h2[1].style.textDecorationLine="underline";
+// h2[1].style.textDecorationThickness="5px";
+// h2[1].style.fontFamily="Courier New";
+// h2[1].style.fontWeight="2px";
+// h2[1].style.fontSize="50px";
+// h2[1].style.textShadow="0px 10px 10px black";
+
+
+// let h3 = document.getElementsByClassName("Name");
+// h3[2].style.textDecorationColor="pink";
+// h3[2].style.color="red";
+// h3[2].style.textDecorationStyle="wavy";
+// h3[2].style.textDecorationLine="underline";
+// h3[2].style.textDecorationThickness="5px";
+// h3[2].style.fontFamily="Courier New";
+// h3[2].style.fontWeight="2px";
+// h3[2].style.fontSize="50px";
+// h3[2].style.textShadow="0px 10px 10px black";
+
+// let h4 = document.getElementsByClassName("Name");
+// h4[3].style.textDecorationColor="darkblue";
+// h4[3].style.color="yellow";
+// h4[3].style.textDecorationStyle="wavy";
+// h4[3].style.textDecorationLine="underline";
+// h4[3].style.textDecorationThickness="5px";
+// h4[3].style.fontFamily="Courier New";
+// h4[3].style.fontWeight="2px";
+// h4[3].style.fontSize="50px";
+// h4[3].style.textShadow="0px 10px 10px black";
+
+
+// let h5 = document.getElementsByClassName("Name");
+// h5[4].style.textDecorationColor="purple";
+// h5[4].style.color="red";
+// h5[4].style.textDecorationStyle="wavy";
+// h5[4].style.textDecorationLine="underline";
+// h5[4].style.textDecorationThickness="5px";
+// h5[4].style.fontFamily="Courier New";
+// h5[4].style.fontWeight="2px";
+// h5[4].style.fontSize="50px";
+// h5[4].style.textShadow="0px 10px 10px black";
+
+
+// let h6 = document.getElementsByClassName("Name");
+// h6[5].style.textDecorationColor="orange";
+// h6[5].style.color="brown";
+// h6[5].style.textDecorationStyle="wavy";
+// h6[5].style.textDecorationLine="underline";
+// h6[5].style.textDecorationThickness="5px";
+// h6[5].style.fontFamily="Courier New";
+// h6[5].style.fontWeight="2px";
+// h6[5].style.fontSize="50px";
+// h6[5].style.textShadow="0px 10px 10px black";

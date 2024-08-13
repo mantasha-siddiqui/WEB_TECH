@@ -49,7 +49,7 @@ console.log(false - "false");//NaN
 
 // (function name(){
 //     console.log("hello")
-// }());//invoke so to remove this error we wrap the whole code in paranthesis but we cannot call this function it will show error
+// }());//invoke so to remove this error we wrap the whole code in paranthesis but we cannot call this function again. it will show error
 //  (ex-we login only one time when we again visit that page we need not to login again and also example of cookies).
 
 // function parent() {
@@ -219,8 +219,8 @@ console.log(arr) // sort method is sorting bitwise (like 1st digit)  // sort is 
 
 //sort() can be of three ways
 // 1- sort()
-// 2- sort((a-b) => a-b) - ascending
-// 3- sort((a-b) => b-a) - descending
+// 2- sort((a,b) => a-b) - ascending
+// 3- sort((a,b) => b-a) - descending
 
 //advance array methods
 // 1.ForEach () - to iterate any array we use this method, it is HOF , and it accept one call back function and this CBF will accept 3 parametre (array element , index value , complete array)

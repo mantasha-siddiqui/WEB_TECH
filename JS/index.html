@@ -3,20 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        section {
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+    
+        }
+    
+      </style> -->
+
+     <!-- DOMevents  -->
+      <!-- <style>
+        section{
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+        }
+      </style> -->
+      <style>
+        section{
+            height: 100vh;
+            width: 100%;
+            border: 1px solid;
+            background-color: aqua;
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: auto;
+            justify-content: space-evenly;
+            box-sizing: border-box;
+            
+        }
+        section::-webkit-scrollbar{
+            display: none;
+        }
+
+        .cards{
+            height: 300px;
+            width: 250px;
+            border: 1px solid;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px gray;
+        }
+
+        .userImage{
+            height: 70%;
+            width: 230px;
+            border-radius: 10px;
+        }
+        .cards , h1 , p{
+              text-align: center;
+        }
+        
+
+      </style>
+    
     <title>Document</title>
 </head>
 <body>
     
-    <h1>Hello javasript</h1>
-    <p>this is first JS program</p>
+    <!-- <h1>Hello javasript</h1>
+    <p>this is first JS program</p> -->
 
 
     <!--<script>    // Internal js
         console.log("hello JS"); /*this is printing statement we can inspect and see in console
             </script>
         -->
+         <!-- documentgetelementbyid  -->
+           <!-- if we multiple element with id  still it will target first one-->
+           <!-- <section id="container"> 1 </section>
 
-        <script src="./String.js"></script>
+            <section id="container"> 2 </section>
+
+                <section id="container">3  </section>
+
+                    <section id="container"> 4 </section>  -->
+
+        <!-- document.getelementsbyclassname -->
+         <!-- <section id="container" class="box">
+         <p>Hello Para</p> 
+         <p>Hello Para</p>    -->
+         <!-- we want this para in js without targeting id class ,  so first target section   -->
+        <!-- </section> -->
+        <!-- we can pass multiple element in class  --> 
+        <!-- <section id="container" class="box box1 box2"> 1 </section> -->
+
+
+        <!-- <section id="container" class="box"> 2 </section>
+
+        <section id="container" class="box"> 3  </section>
+
+        <section id="container" class="box"> 4 </section>
+
+         -->
+
+         <!-- dom methods  (ist method) -->
+        <!-- <section></section>
+         <button onclick="changeColor()">Change color</button>   -->
+          <!--this is first property by using html attribute (event name is onclick so inside this pass that funstion name(change color)) -->
+
+
+
+        <!-- <p>Counter --</p>
+        <div class="counter">0</div>
+        <button onclick="increment()">Increse</button>
+        <button onclick="decrement()">Decrease</button>
+        <button onclick="reset()">Reset</button> -->
+
+        <!-- <section></section>
+        <button onmouseover="size()" onmouseleave="size1()">hover</button> -->
+
+        <!-- <section></section>
+        <button>Button</button> -->
+
+        <section></section>
+
+
+
+        
+<script src="./FetchApi.js"></script>
 
 </body>
+
 </html>

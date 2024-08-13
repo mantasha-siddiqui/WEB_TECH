@@ -16,7 +16,7 @@ ECMA corporation is located in switzerland.
 *before ES-6 we have only var but it does not provide security so in ES-14 they introduce let and const.
 
 FEATURES OF JS
-1- JS is a scripting language.(it will define when and how our browser will act)
+1- JS is a scripting language.(it will define when and how our browser will act)          
 2- JS is object based language.(in JS everything is object. (string,datatype,array all this is object))
 3- JS is dynamically typed language.(when we pass any value it get automatically converted)
 4- JS is weakly type language.(with one variable we can store any value (while declaring variable no need to mention datatypes))
@@ -37,7 +37,8 @@ runtime polymorphism is not possible in js that's why it is not completely objec
 
 there are two ways to write JS :-
 1- internal (inside the html code)
-2- external (we create a seperate file)+
+2- external (we create a seperate file)
+*
 
 
 ADVANTAGES OF JAVASCRIPT
@@ -90,12 +91,12 @@ const -  only with initialization declaration is possible in same line
         hosting is not possible (bcz of TDZ)  
 
 
-* hoisting is accessing the variable before declaration. 
+* hoisting is accessing the variable before declaration.                
 ex- console.log(a)
     var a = 10;
 OR hoisting is JS default behaviour of moving all declarations to the top of current scope.  
 
-*inside script scope we have something called TDZ (temporary dead zone). whatevere variable is in tdz so for that variable default value will not be initialized.
+*inside script scope we have something called TDZ (temporary dead zone). whatever variable is in tdz so for that variable default value will not be initialized.
 *TDZ is a phase between variable declaration , initialization.
 
 * Datatype is of 2 types 
@@ -191,8 +192,7 @@ function calling statement - FunName()
 
 * to execute the code we have to call the function
 while calling function we pass argument and we can pass multiple values (10,20,30)
-which declaration we pass parametre (a,b,c), same no of varia
-ble as argument in parametre no need to use keyword(let,const)
+which declaration we pass parametre (a,b,c), same no of variable as argument in parametre no need to use keyword(let,const)
 parametre name can be anything (first argument - first parametre)
 
 TYPES OF FUNCTION:
@@ -210,7 +210,7 @@ to call nested function there are two ways:-
 
 5-immediately invoked function expression(IIFE)- invoking the functiom immediately after its declaration,WE CAN EXECUTE  IT ONLY ONCE.
 6-arrow function:- it is short hand to declare a function 
-syntax-  ()=>{}  that arrow is called fat arrow.to call this function assign this function to variable and with the help of variable we can call
+syntax-  ()=>{}  that arrow is called fatt arrow.to call this function assign this function to variable and with the help of variable we can call
 
 7-higher order function
 8-callback function
@@ -277,7 +277,7 @@ clg(fun(20,30));
 
 * arrow function different from other function bcz of 
 1-short hand
-2-implicit  is possible
+2-implicit is possible
 3-in arrow function binding is not possible rest all function it is possible
 
 
@@ -360,10 +360,10 @@ we have methods of object:-(suppose we want to access every details so we have t
 so it will make the code lengthy so instead of printing we can use methods)
 * object can also have methods 
 * methods are action that can be performed on object.
-/* ARRAY METHODS 
+/* OBJECT METHODS 
 1. keys: - it will return array of keys
 2. values: return array of values
-3. entries: array keys and values
+3. entries: array keys and values    
 4. assign:- it is used to merge two object
 5. seal:- we can only update the properties
 6. isSealed:- it is used to check whether the particular object is sealed or not
@@ -372,11 +372,11 @@ so it will make the code lengthy so instead of printing we can use methods)
 9. hasOwnProperty:- it is used to check  whether the particular property is present in an object or not.
 
 
-* STRING is a collection of character it can be single value aur more than two value in double quotes.
+* STRING is a collection of character it can be single value aur more than two value in  quotes.
 three ways to declare string:-
-1-single quotes
-2-double quotes
-3-backtic
+1-single quotes - we cannot create multiline string using this
+2-double quotes - we cannot create multiline string using this
+3-backtic - with this we can
 
 * some string method in JS:-
 string length (it is a property)
@@ -408,3 +408,156 @@ it will return element , it is valid will for string also
 array               working           working
 string              working           working
 object             not working        working
+
+
+* DOM -  Document object model
+it is web api , by using this dom we can modify the html element without refreshing the page (also css)
+ex- suppose there is rectangle and there is a button we have created so if we click on that button that rectangle changed in circle
+document(it is an object it will hold our code in tree format,  document object is a root node for dom tree)
+document is an object created by browser (in browser window object is created ,in nodejs we dont have window object)
+DOM is not a part of JS. (it is a seperate interface)
+DOM allow to modify the document content rendered by the browser without r      eloading the page , therefore , dom help to make a web page dynamic
+
+to target any html element in dom:-
+1-document.getElementbyid() - accessing the element by id 
+2-document.getelementsbyclassname() - accessing the element by classname
+3-document.getelementsbytagname() - accessing the element by tag name
+4-document.queryselector()- by using this we can target any html element who has id , class and tag (if  it has only id still we can access and vice versa)
+5-document.queryselectorall()
+
+* DOM traversing :- by this we can perform crud opertion on element
+
+METHODS:-
+1-  create element-creates the HTML element  
+2 - append element
+3 - appendchild()
+4 - remove()- it removes an element (or node) from the document.
+5 - setattribute() - it sets a new value to an attribute. If the attribute does not exist, it is created first.
+
+PROPERTIES:-
+1-innerHTML-The innerHTML property sets or returns the HTML content (inner HTML) of an element.
+2-innerText
+
+* EVENTS IN DOM
+event is an action performed by user on webpage.
+a JS can be executed when an event occurs , like when a user click on an html element.
+
+click , mouseover , mouseout , mousedown , mouseup , contaxmenu(for right click) , doubleclick , keypress , keyup , keydown , submit , dblclick(for double click)
+
+there are two ways to use events:
+1- by using html attribute
+2- by using addEventListener() it will accept two parametre (event name (ex-click) , call back function)
+
+* EVENT propagation 
+EVENT PROPAGATION:- how our events are traveling through dom tree
+we have 2 phase
+1. capturing phase:- events travelling through outer to inner phase
+2. bubbling phase:-  events travelling through inner to outer phase
+
+ default phase of event propagation is bubbling phase
+ to stop event propagation we have methods to stop propagation we have to pass same parameter in the all the box code like this 
+ section.addEventListener("click", (e)=>{
+   e.stopPropagation()
+  section.style.backgroundColor = "red";
+});
+
+api.github.com/users
+* JSON (Javascript Object Notation) 
+in json format key and values both are in double quotes(string format)
+whenever we want to transfer the data to backend we convert that code in json bcz backend understand only json
+JSON is lightweight. and it is a format of storing and transporting data, it is used when the data is send from server to webpage
+ (server(accept or tranfer) know only json format)JS doesnt know json so JS convert JS data into json  
+for conversion we have JSON object called javascript object 
+we have two method :-
+1- stringify() = used to convert JS into JSON
+2- parse() = used to convert json into JS 
+
+* DESTRUCTURING :-
+it is a method to extract the data from arrays and objects.
+two types of destructuring:-
+1- array destructuring - 
+2- object destructuring 
+to perform this destructuring we have
+1- spread operator:- syntax =  {... variable name} - it is used to unpack the element (RHS)
+2- rest parameter :- syntax =  {... variable name} - it is used for packing the remaining element (LHS)
+
+* advantage of array destructuring
+while destructuring of array we can take any variable name 
+* disadvantage of array destructuring
+we cant skip array element 
+
+* BROWSER STORAGE
+local storage - (permanent storage after closing also it will get storage (for authentication and authorization))
+session storage - (it will hold the data until the session is running)
+to store or manipulate the data we have object called local storage :-
+* local and session storage has some method inside it
+to store the data (setitem (two parameter(keyname , what u want to store)))
+to fetch the data (getitem (one parametre(keyname)))
+to clear all the data localstorage.clear
+to remove the data we have localstorage.remove() 
+
+* Math object :- it is used to perform mathematical operations
+math.sqrt(pass the no)       
+1-math.sqrt
+2-math.floor
+3-math.ceil
+4-math.max - it return maximum of input
+5-math.min  
+  
+
+* date object = for this just create instance of that object           
+* ASYNCHRONOUS JS
+JS is synchronous in nature 
+so to make our JS asynchrounous(at a time multiple task can be executed) we have method
+1- CALLBACKS - it is used to make JS asynchronous
+* settimeout() (whenever you want some delay (ex - when we click on login in any forms it take some tym)) , it will execute only once
+* setinterval() (ex- for otp we have timer)
+* removeitem()
+* clear()
+2-Promises - it is a mechanism to handle asynchrounous operations 
+(promise constructor will accept one cbf and that cbf will accept two parametre(resolve and reject)) 
+whenever we are fetcing data from backend , to fetch data it will take time but we cant stop remaining execution , so to handle the situation we have promises 
+in promises we have three states:-
+1- pending state
+2- resolve state
+3- reject state
+* whenever we are fetcing data from backend , we get promise so 
+1- if data is available - resolve
+2- data is not there - reject
+3-  have data but it is v big and it will take some time - pending
+
+* there are 4 promise methods:-(use settimeout() and promise)
+1-any (if any  promises should be resolved then use any)
+2-all (all promises should be resolved then use all)
+3-allsettled - (to check whether promises are settled or not (all action are performed or not like resolved or rejected))
+4-race -  (suppose we have multiple promise the which promise will execute first then we use race)
+
+3- Async and Await
+
+* how to fetch the data in JS
+1-fetch - to fetch data from backend we have two method in fetch
+ *by using promises
+ *async and await 
+
+
+* MODULES 
+it is used to share the code in multiple files
+for sharing the file use export
+and where u r sharing that file use import
+
+by using module we can share the code in multiple files , and in html we have to specify the type of file like type = module 
+in whichever file we are exporting the file that file is module file
+
+
+there are two types of export statement
+1- named export 
+- in named export while exporting any statement we use only export keyword
+- while importing we have to use curly braces
+- while importing we have to use same name 
+- in one file we can use multiple named export statement
+2- default export
+- in default we have to use export and default keyword
+- we cannnot use multiple default export statement in single file  
+- no need of curly braces
+- we can use any name    
+
